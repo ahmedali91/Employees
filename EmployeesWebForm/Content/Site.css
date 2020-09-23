@@ -1,0 +1,78 @@
+﻿body {
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column tfs 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.main_services_block {
+    width: 98%;
+    margin: 30px 1.5% 30px 0px;
+    overflow: hidden;
+}
+
+.mini_block {
+    float: right;
+    padding: 10px 12px;
+    margin-left: 14px;
+    background: #b6995b;
+    border-radius: 6px;
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+}
+
+    .mini_block i {
+        display: block;
+        width: 100%;
+        height: 46px;
+        overflow: hidden;
+        -webkit-transition: all 250ms ease-in-out;
+        -moz-transition: all 250ms ease-in-out;
+        -ms-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+
+    .mini_block P {
+        color: #fff;
+        margin-top: 2px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .mini_block:hover {
+        background: #01703d;
+    }
+
+        .mini_block:hover i {
+            margin-top: -5px;
+        }
